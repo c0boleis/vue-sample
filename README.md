@@ -73,3 +73,9 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+# Docs
+
+- Nuxt https://nuxt.com/
+- Nuxt i18n https://i18n.nuxtjs.org/
+- 

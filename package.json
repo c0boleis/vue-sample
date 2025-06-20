@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/i18n": "9.5.5",
     "@unocss/reset": "^66.2.3",
     "nuxt": "^4.0.0-alpha.2"
   },
