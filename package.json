@@ -10,7 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@unocss/reset": "^66.2.3",
     "nuxt": "^4.0.0-alpha.2"
   },
-  "packageManager": "pnpm@10.12.1"
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@unocss/nuxt": "^66.2.3",
+    "unocss": "^66.2.3"
+  }
 }
