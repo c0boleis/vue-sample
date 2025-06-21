@@ -3,7 +3,14 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/i18n'
+    '@unocss/nuxt',
+    '@nuxtjs/i18n',
+    'shadcn-nuxt',
+    '@vueuse/nuxt',
+    '@nuxt/eslint',
+    '@nuxt/icon',
+    '@pinia/nuxt',
+    '@nuxtjs/color-mode',
   ],
   i18n: {
     strategy: 'no_prefix',
@@ -25,5 +32,13 @@ export default defineNuxtConfig({
       cookieKey: 'i18n_redirected',
       redirectOn: 'root'
     }
-  }
+  },
+  css: [
+    '@unocss/reset/tailwind.css',
+  ],
+  imports: {
+    dirs: [
+      './lib',
+    ],
+  },
 })

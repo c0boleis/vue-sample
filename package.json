@@ -12,11 +12,25 @@
   "dependencies": {
     "@nuxtjs/i18n": "9.5.5",
     "@unocss/reset": "^66.2.3",
-    "nuxt": "^4.0.0-alpha.2"
+    "nuxt": "^4.0.0-alpha.2",
+    "radix-vue": "^1.9.17",
+    "tailwindcss": "^4.1.10"
   },
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
+    "@nuxt/eslint": "^1.4.1",
+    "@nuxt/icon": "^1.14.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@pinia/nuxt": "^0.11.1",
     "@unocss/nuxt": "^66.2.3",
-    "unocss": "^66.2.3"
+    "@vueuse/core": "^13.4.0",
+    "@vueuse/math": "^13.4.0",
+    "@vueuse/nuxt": "^13.4.0",
+    "clsx": "^2.1.1",
+    "sass-embedded": "^1.89.2",
+    "shadcn-nuxt": "^2.2.0",
+    "tailwind-merge": "^3.3.1",
+    "unocss": "^66.2.3",
+    "vue-sonner": "^2.0.0"
   }
 }
