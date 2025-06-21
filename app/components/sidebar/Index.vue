@@ -1,6 +1,7 @@
 <template>
   <nav class="p-3">
     <SidebarSection label="Personnes">
+      <SidebarLink label="Toutes les personnes" icon="fa-solid:address-book"  to="/person"/>
       <SidebarLink label="Catéchuménat" icon="fa-solid:cross-circle-user" beta/>
     </SidebarSection>
     <SidebarSection label="Groupes et activités">
@@ -17,3 +18,5 @@
     </SidebarSection>
   </nav>
 </template>
+<script setup lang="ts">
+</script>
