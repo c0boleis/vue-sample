@@ -10,18 +10,18 @@ import '@unocss/reset/tailwind-compat.css'
   >
     <SplitterPanel
       id="splitter-group-1-panel-1"
-      :min-size="20"
-      :max-size="30"
+      :min-size="16"
+      :max-size="24"
       class="bg-white"
     >
-      <Icon name="fa-solid:house"/>
+      <Sidebar/>
     </SplitterPanel>
     <SplitterResizeHandle id="splitter-group-1-resize-handle-1" />
     <SplitterPanel
       id="splitter-group-1-panel-2"
       :min-size="60"
     >
-      Main
+      <NuxtPage/>
     </SplitterPanel>
   </SplitterGroup>
 </template>

@@ -35,6 +35,9 @@ export default defineNuxtConfig({
         prefix: 'fa-regular',
         dir: './node_modules/@awesome.me/kit-a373433768/icons/svgs/regular'
       }, {
+        prefix: 'fa-custom',
+        dir: './node_modules/@awesome.me/kit-a373433768/icons/svgs/custom-icons'
+      }, {
         prefix: 'fa-brands',
         dir: './node_modules/@awesome.me/kit-a373433768/icons/svgs/brands'
       }
