@@ -1,9 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/i18n', '@pinia/nuxt'
-  ],
+  modules: ['@nuxtjs/i18n', '@pinia/nuxt', '@nuxt/icon'],
   i18n: {
     strategy: 'no_prefix',
     defaultLocale: 'fr',
@@ -17,15 +15,29 @@ export default defineNuxtConfig({
       { code: 'pt', name: 'Português', file: 'pt.json' },
       { code: 'nl', name: 'Dutch', file: 'nl.json' },
       { code: 'pl', name: 'Polski', file: 'pl.json' },
-      { code: 'zu', name: 'isiZulu', file: 'zu.json' }
+      { code: 'zu', name: 'isiZulu', file: 'zu.json' },
     ],
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
+      redirectOn: 'root',
     },
     bundle: {
-      optimizeTranslationDirective: false
+      optimizeTranslationDirective: false,
     }
-  }
+  },
+  icon: {
+    customCollections: [
+      {
+        prefix: 'fa-solid',
+        dir: './node_modules/@awesome.me/kit-a373433768/icons/svgs/solid'
+      }, {
+        prefix: 'fa-regular',
+        dir: './node_modules/@awesome.me/kit-a373433768/icons/svgs/regular'
+      }, {
+        prefix: 'fa-brands',
+        dir: './node_modules/@awesome.me/kit-a373433768/icons/svgs/brands'
+      }
+    ],
+  },
 })

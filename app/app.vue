@@ -4,7 +4,6 @@ import '@unocss/reset/tailwind-compat.css'
 
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Icon name="fa-solid:house"/>
   </div>
 </template>
